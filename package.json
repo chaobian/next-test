@@ -3,6 +3,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
+    "vercel-build": "npm rebuild bcrypt --build-from-source",
     "start": "next start"
   },
   "dependencies": {
